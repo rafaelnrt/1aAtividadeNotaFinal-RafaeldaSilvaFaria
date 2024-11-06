@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Produtos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tabela de Produtos</h1>
+    <table class="tabela-produto">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Preço</th>
+                <th>Categoria</th>
+                <th>Descrição</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Notebook ASUS VivoBook Go</td>
+                <td>R$ 2.575,08</td>
+                <td>Eletrônicos</td>
+                <td>Desempenho para o dia dia com AMD Ryzen 5 7520U; 
+                    Tela Full HD antirreflexo de 15,6”; 
+                    Resistência e Durabilidade de Nível Militar; 
+                    Abertura em 180° para melhor visualização.</td>
+            </tr>
+            <tr>
+                <td>Smartphone Samsung Galaxy S24 Ultra</td>
+                <td>R$ 7.109,10</td>
+                <td>Eletrônicos</td>
+                <td>512GB de Memória Interna(*) e 12GB RAM;
+                    Bateria de 5000mAh
+                    Galaxy AI; Circule para pesquisar; Tradução simultânea de voz e texto por IA; Galeria Inteligente;
+                    Câmera Quádrupla de 200MP + 50MP +12MP + 10MP; Selfie de 12MP Dual Pixel AF;
+                    Tela Infinita de 6.8"** 1-120Hz; Cadeado Galaxy</td>
+            </tr>
+            <tr>
+                <td>Console Xbox Series X</td>
+                <td>R$ 4.380,23</td>
+                <td>Eletrônicos</td>
+                <td>Console Xbox mais rápido e poderoso de todos os tempos
+                    Jogue milhares de títulos: todos os jogos têm melhor 
+                    aparência e são melhor executados no Xbox Series X</td>
+            </tr>
+            <tr>
+                <td>PlayStation®5 Standard Edition</td>
+                <td>R$ 3.950,00</td>
+                <td>Eletrônicos</td>
+                <td>Play Has No Limits Jogar Não Tem Limites PlayStation5 O console 
+                    PS5 oferece novas possibilidades de jogabilidade que você nunca imaginou. 
+                    Reproduza jogos para PS5 e PS4 em Blu-ray Disc. Além disso, você também pode 
+                    baixar jogos digitais para PS5 e PS4 pela PlayStation Store. Experimente o carregamento 
+                    extremamente rápido do SSD de ultra-velocidade, uma imersão mais profunda com suporte à resposta tátil, 
+                    gatilhos adaptáveis e áudio 3D. Além de uma geração totalmente nova de jogos incríveis PlayStation.</td>
+            </tr>
+            <tr>
+                <td>Galaxy Tab A9+</td>
+                <td>R$ 1.079,98</td>
+                <td>Eletrônicos</td>
+                <td>Wifi, 11' polegadas, 4GB RAM, 64 GB, Câmera Principal 8 MP, Câmera Traseira 5 MP</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+---------------------------------------------------------------------------------------------------------------------------------------------
+CSS:
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tabela-produto {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10 auto;
+    font-size: 16px;
+}
+
+.tabela-produto thead {
+    background-color: #3d1299;
+    color: white;
+}
+
+.tabela-produto th,
+.tabela-produto td {
+    padding: 20px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.tabela-produto tbody tr:nth-child(even) {
+    background-color: #cfc0ef;
+}
+.tabela-produto tbody tr:hover {
+    background-color: #e8e0f7;
+}
+--------------------------------------------------------------------------------------------------------------------------------------------
