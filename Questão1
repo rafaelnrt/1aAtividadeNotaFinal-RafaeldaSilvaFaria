@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Rafael da Silva Faria</h1>
+            <p>Matrícula: 202404216926</p>
+        </header>
+        
+        <section class="info-pessoal">
+            <h2>Sobre Mim</h2>
+            <p>Sou uma pessoa tranquila,
+            bem caseiro e quando saio gosto de lugares mais calmos sem muita bagunça,
+            gosto de jogar video game e assistir animes, 
+            estou cursando o segundo periodo de Ciência da Computação.
+            </p>
+            
+        </section>
+        
+        <section class="formacao">
+            <h2>Formação Acadêmica</h2>
+            <p>Curso de Graduação: Ciência da Computação</p>
+        </section>
+        
+        <section class="objetivo">
+            <h2>Objetivo Profissional</h2>
+            <p>Meu objetivo profissional inicial é me tornar um
+              progamador Python, sei que existe diverças areas
+              onde se pode atuar com progamação em python mas ainda
+              não decidi em qual me focar.
+            </p>
+        </section>
+    </div>
+</body>
+</html>
+----------------------------------------------------------------------------------------------------------------
+CSS:
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    background-color: #16203e;
+    color: #16203e;
+}
+
+.container {
+    width: 70%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 200px;
+    background-color: #fcfafa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 80px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #15186f;
+}
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #a10f0f;
+    border-bottom: 2px solid #15186f;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
